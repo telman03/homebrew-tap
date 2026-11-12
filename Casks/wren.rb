@@ -19,7 +19,7 @@ cask "wren" do
   app "Wren.app"
 
   zap trash: [
-    "~/Library/Application Support/Wren/custom.css",
+    "~/Library/Application Support/Wren",
     "~/Library/Caches/md.wren.mac",
     "~/Library/HTTPStorages/md.wren.mac",
     "~/Library/Preferences/md.wren.mac.plist",
