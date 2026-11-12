@@ -1,6 +1,6 @@
 cask "wren" do
   version "1.2.0"
-  sha256 "247dafe5c44b0953898ce5576f8e764d49a2c8b0e9f0d585599357066d985cb5"
+  sha256 "311a5f1864879084b3c526ae0be1f5c12ec9d83044bf8abd60ddaa5c65d5d2f9"
 
   url "https://saymurmur.app/wren/releases/Wren-#{version}.dmg"
   name "Wren"
