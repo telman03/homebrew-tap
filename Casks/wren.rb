@@ -1,6 +1,6 @@
 cask "wren" do
-  version "1.2.0"
-  sha256 "311a5f1864879084b3c526ae0be1f5c12ec9d83044bf8abd60ddaa5c65d5d2f9"
+  version "1.2.1"
+  sha256 "656a28c37e5064ecc4d58ff7cda78cf4ac10b80202fa8f82a1302ec8d66d4267"
 
   url "https://saymurmur.app/wren/releases/Wren-#{version}.dmg"
   name "Wren"
@@ -13,7 +13,7 @@ cask "wren" do
   end
 
   auto_updates true
-  depends_on macos: :tahoe
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Wren.app"
